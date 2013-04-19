@@ -13,6 +13,8 @@ $this->menu=array(
 );
 ?>
 
+<div id="form-wrap2" class="span5 offset4">
 <h1>Create User</h1>
-
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<div >
+    <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+</div></div>
